@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: iMe7LIMetciyEnneYZl2Xz+wZWYS8Pvzt0XoyPL9sxZ2zdKsGOAZycNfj/ihB1QUhy6dz52sAChqkFyNYJoqLYK1rWNo8Yi0ly66LIvhzIIBKSFClF07dvgNAovA0Q0Zs1dUc+cbwHT15PFDxSIAAGQUxn6u1BGBiQTck4obH3J5Tjw8o6ts0VghZByaE7MEaHYb19ad2+9Atb6GLrUVFUihlm+cJVF666Bat0wQaprFhqkOh+7qdMUH6noBh7WWelU8DKpIuggoqyGUR9FzUCmvNPk8tV0O8/jzt4U4KwEeoHmOsuJ3cytmSYwC5DEMKaF8aGZgvo6HPOkP+A/8sRstsdqQATpsGou+d2Vvio/6QZNkJi72eZw+ivKVreS07Io2/y8Y/jTCETPelXlGcS9uf3Aqz4BczBToddFyc8cxDCtCtMtVm4J2IoYYFr6pGEy0PkGdgkdDmOhERYKPvyFdr1hVGLks6Fmq07F8BdC2kK1GUxIT40xUz/4goFOXY5h+gS2BukPNWvTTaTpg++L1eLeLB0JbUJFLt3z5ljeFKWIyXVg8G413wITdVdi301+G1ADIDXa9y1Puhi3bALF3JhD7Wj/XormA6xhwBx1/NY/YbGsva7I5hSNWMRcRW26lqo3vXKX0TqUQBzRWN4JJp/r6VVd5MhYICjJ6Yww=
+  app: guarded-headland-63056
+  on:
+    repo: dakshshah96/blog-app-mongoose-challenge-solution
